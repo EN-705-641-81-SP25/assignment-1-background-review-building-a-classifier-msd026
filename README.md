@@ -4,11 +4,12 @@
 
 ### 1.1 Basic Operations
 
-|   | Value |
-|---|-------|
-| 1 | a     |
-| 2 | b     |
-| 3 | c     |
+Matrix:
+
+⎡ a ⎤
+⎢ b ⎥
+⎣ c ⎦
+
 
 Given:
 - α = 2
