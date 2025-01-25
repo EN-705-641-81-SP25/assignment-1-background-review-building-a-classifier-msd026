@@ -223,4 +223,15 @@ I don't understand this one. Will come back to it
 
 4. ∇f(x) = 2Ax
 
-5. ∇f(x) = x
+5. ∇f(x) = 
+[
+ x₁,
+ x₂,
+ ⋮,
+ xₐ
+]
+= x
+
+
+
+
