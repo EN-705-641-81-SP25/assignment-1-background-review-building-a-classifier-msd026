@@ -233,5 +233,51 @@ I don't understand this one. Will come back to it
 = x
 
 
+### Algorithms and Data Structures Review
+
+#### 1. Divide-and-Conquer Analysis
+
+a. Divide:  
+   Split in 2: O(1).
+
+b. Conquer:  
+   Sort halves: 2T(n/2).
+
+c. Combine:  
+   combine the 2 O(n).
+
+Using the Master Theorem:
+
+T(n) = 2T(n/2) + O(n) ==> T(n) = O(n log n)
+
+
+#### 2. Cost of Finding the Third-Largest Element in an Unsorted List
+  
+   Sort the list in O(n \log n)  time. Then, select the third-largest element can be found in O(1) time by directly accessing the third-to-last element in the sorted list.
+
+#### 3. Cost of Finding the Smallest Element Greater Than 0 in a Sorted List
+
+   Using the Binary search has a time complexity of O(log n)
+
+#### 4. Cost of Finding the Value Associated with a Key in a Hash Table
+
+   O(1)
+   
+#### 5. Cost of Computing the Matrix-Vector Product Ax
+
+   O(n⋅d)
+
+#### 6. Cost of Computing the Quadratic Form xᵀ(Ax)
+
+   Ax =  O(n^2) 
+
+   xᵀ = O(n)
+
+   xᵀ (Ax) = O(n^2) + O(n) = O(n^2)
+
+#### 7. Cost of Computing Matrix Multiplication AB with A is m×n and B is n×d
+
+   O(m ⋅ n ⋅ d)
+
 
 
