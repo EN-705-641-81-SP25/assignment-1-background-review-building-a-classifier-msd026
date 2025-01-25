@@ -146,3 +146,69 @@ D =
 $$
 
 
+## 2. Taking Chances: Probability Review
+
+### 2.1 Basic Probability
+
+#### 1. **Expected value**
+
+E(x) = $5
+
+#### 2. **Mutually exclusive Probability**
+
+P(B)=0.55
+
+#### 3. **A and B are independent**
+
+P(B) = 0.9167
+
+
+
+### 2.2 Expectations and Variance
+
+### Expected Value E[X]
+
+#### E(X) for a single flip
+
+P(H) = P(C₁)⋅P(H|C₁) + P(C₂)⋅P(H|C₂)  
+P(H) = 0.5⋅0.3 + 0.5⋅0.9  
+P(H) = 0.15 + 0.45  
+P(H) = 0.6
+
+#### E(X) value for 3 flips
+
+The expected number of independent heads in 3 flips is:
+
+E[X] = 3⋅P(H)  
+E[X] = 3⋅0.6  
+E[X] = 1.8
+
+### Variance
+
+#### Variance for a single flip
+Var(X) = P(H)⋅(1 − P(H))  
+Var(X) = 0.6⋅0.4  
+Var(X) = 0.24
+
+#### Variance for 3 flips
+variance for 3 independent flips is:
+
+Var[X] = 3⋅Var(X)  
+Var[X] = 3⋅0.24  
+Var[X] = 0.72
+
+### 2.3 A Variance Paradox?
+
+I don't understand this one. Will come back to it
+
+
+
+## 3. Calculus Review
+
+### Derivatives
+
+1. f'(x) = 6x - 2 
+
+2. f'(x) = 1 - 2x 
+
+3. f'(x) = p(x)
