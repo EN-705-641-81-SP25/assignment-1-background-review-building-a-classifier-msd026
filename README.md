@@ -212,3 +212,15 @@ I don't understand this one. Will come back to it
 2. f'(x) = 1 - 2x 
 
 3. f'(x) = p(x)
+
+### Gradient Expressions
+
+1. ∇f(x) = [2x₁, exp(x₂)]
+
+2. ∇f(x) = exp(x₁ + x₂x₃) [1, x₃, x₂]
+
+3. ∇f(x) = a
+
+4. ∇f(x) = 2Ax
+
+5. ∇f(x) = x
