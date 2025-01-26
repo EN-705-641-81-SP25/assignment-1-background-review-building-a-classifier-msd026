@@ -233,7 +233,7 @@ I don't understand this one. Will come back to it
 = x
 
 
-### Algorithms and Data Structures Review
+### 4. Algorithms and Data Structures Review
 
 #### 1. Divide-and-Conquer Analysis
 
@@ -278,6 +278,22 @@ T(n) = 2T(n/2) + O(n) ==> T(n) = O(n log n)
 #### 7. Cost of Computing Matrix Multiplication AB with A is m×n and B is n×d
 
    O(m ⋅ n ⋅ d)
+
+
+
+
+### 5. Programming - Analysis
+
+![single_run_loss](https://github.com/user-attachments/assets/b3b5b5cb-9597-435e-bc4d-ad9cb7ac638c)
+
+The training graph is decreasing, as expected, as the number of epochs increases. However, the Dev (validation) graph decreases as expected for 6 epoches, and stops decreasing afterwards. Which indicates our data might be overfitted. This means our data is not generalizing enough and performing better on seen data, but not good on unseen data.
+
+![embedding_loss](https://github.com/user-attachments/assets/fcb5546a-88ab-4cb6-88d5-b97d3fdc9f08)
+![embedding_acc](https://github.com/user-attachments/assets/d440afc3-1bc5-48d8-a410-795f418e4457)
+
+Different embeddings show different loss trends. Word2Vec (word2vec-google-news-300) embeddings has the lowest dev (validation) loss, but the smaller GloVe are doing worse. The accuracy graph shows that Word2Vec embeddings has the highest accuracy on our data while glove-twitter-50 has a lower accuracy. Word2Vec has a larger and a more context-rich to capture semantic and the relationships between syntax. This leads to better performance because smaller embeddings have lower context and less expensive that limits its ability to generalize data.
+
+
 
 
 
